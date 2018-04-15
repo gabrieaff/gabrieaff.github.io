@@ -1,8 +1,8 @@
 
 $(".movie").show();
 $(".control-buttons").show();
-$(".countdown").hide();
-$(".steps").hide();	
+$(".countdown").show();
+$(".steps").show();	
 $(".about").hide();
 $(".attempts").hide();
 
@@ -40,7 +40,7 @@ $("#proj-button").click(function(){
 
 	//Set the video link
 	//Replace '&controls=0' to hide youtube player controls
-	var theVideoLink = "https://www.youtube.com/embed/raLP7DoZbxc?rel=0&controls=0";
+	var theVideoLink = "https://www.youtube.com/raLP7DoZbxc?rel=0&controls=0";
 
 	//Set the page element
 	var theElement = "#video";
@@ -59,28 +59,21 @@ $("#proj-button").click(function(){
 		//$('body').append('<div class="specialBox">FUNKY!!!!</div>');
 	//});
 
-	myVideo.cue(14, function(){
-		$('#info').html('Are you still listening???');
+	myVideo.cue(32, function(){
+		$("body").append('<div class="steps">1. Accidental Procrastination</div>','<div class="countdown"><p>10 days before deadline</div>');
 	});
 
-	// myVideo.cue(16, function(){
-	// 	myVideo.pause();
-	// 	myVideoTwo.currentTime(44);
-	// 	myVideoTwo.play();
-	// });
-
-	//Use '.code' to make a events happen at a specific start and end time
-	myVideo.code({
-		start: 4,
-		end: 10,
-		onStart: function(){
-			$('#info').html('We hit 4 seconds...');
-		},
-		onEnd: function(){
-			$('#info').html('Having fun yet???');
-		}
+	myVideo.cue(182, function(){
+		$("body").append('<div class="steps">2. Panicked Working</div>','<div class="countdown"><p>2 days before deadline</div>');
 	});
 
+	myVideo.cue(330, function(){
+		$("body").append('<div class="steps">3. Eventual Acceptance</div>','<div class="countdown"><p>1 day before deadline</div>');
+	});
+
+	myVideo.cue(379, function(){
+		$("body").append('<div class="steps">3a. Cs Get Degrees</div>','<div class="countdown"><p>1 day before deadline</div>');
+	});
 
 
 	//"ON" EVENTS
@@ -95,6 +88,8 @@ $("#proj-button").click(function(){
 	myVideo.on("pause", function(){
 		$("body").css({"background":"#ffffff"}) ;
 		$(".title").show();
+		$(".countdown").hide();
+		$(".steps").hide()
 	});
 
 	/*******************************/

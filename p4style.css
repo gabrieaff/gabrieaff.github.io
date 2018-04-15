@@ -25,12 +25,15 @@ button{
 
 
 .steps{
+	font-family:'Helvetica', sans-serif;
 	float: center;
 	top: 8%;
-	left: 60%;
+	left: 30%;
 	position: fixed;
 	color: white;
+	font-size: 30px;
 }
+
 
 .movie{
 	float: center;
@@ -42,10 +45,13 @@ button{
 }
 
 .countdown{
+	font-family:'Helvetica', sans-serif;
+	font-style: italic;
 	top: 70%;
-	left: 25%;
+	left: 15%;
 	position: fixed;
 	color: white;
+	font-size: 15px;
 }
 
 
