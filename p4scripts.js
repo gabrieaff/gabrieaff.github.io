@@ -1,8 +1,8 @@
 
 $(".movie").show();
 $(".control-buttons").show();
-$(".countdown").show();
-$(".steps").show();	
+$(".countdown").hide();
+$(".steps").hide();	
 $(".about").hide();
 $(".attempts").hide();
 
@@ -85,15 +85,16 @@ $("#proj-button").click(function(){
 
 	//"ON" EVENTS
 	myVideo.on("play", function(){
-		$('body').css({"background":"#000000"}) ;
-		$("#work-button").css({"font-color":"#ffffff"});
+		$("body").css({"background":"#000000"}) ;
+		$(".title").hide();
+		$(".control-buttons").show();
+		$(".control-buttons").css({"background":"white"})
+		$(".countdown").show();
+		$(".steps").show();	
 	});
 	myVideo.on("pause", function(){
-		$('body').append("<div class='pauseDiv'>PAUSE!PAUSE!PAUSE!</div>");
-	});
-	myVideo.on("timeupdate", function(){
-		//console.log(myVideo.currentTime());
-		$('body').append("<div class='updatingDiv'>UPDATING!UPDATING!UPDATING</div>");
+		$("body").css({"background":"#ffffff"}) ;
+		$(".title").show();
 	});
 
 	/*******************************/

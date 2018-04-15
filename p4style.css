@@ -5,7 +5,7 @@ html, body{
 }
 
 h1{
-	font-family: 'Enriqueta', serif;
+	font-family: 'Helvetica', sans-serif;
 	font-size: 40px;
 	text-align: left;
 	position: absolute;
@@ -17,8 +17,6 @@ h1{
 
 button{
 	font-family: 'Chivo', sans-serif;
-	color: black;
-	width: 25%;
 	max-width: auto;
 	background-color: transparent;
 	border: none;
@@ -31,6 +29,7 @@ button{
 	top: 8%;
 	left: 60%;
 	position: fixed;
+	color: white;
 }
 
 .movie{
@@ -46,6 +45,7 @@ button{
 	top: 70%;
 	left: 25%;
 	position: fixed;
+	color: white;
 }
 
 
@@ -74,15 +74,11 @@ button{
 }
 
 .control-buttons{
-	font-size: 12px;
-	width: 25%;
+	size: 12px;
 	top: 83%;
 	left: 56%;
-	position: fixed;	
-}
-
-.about{
-	min-height: 100%;
+	position: fixed;
+	background: none;
 }
 
 .images{
@@ -95,7 +91,7 @@ button{
 
 .textabout{
 	top: 15%;
-	right: 1%;
+	right: -7%;
 	position: fixed;
 	height: 100%;
 }
