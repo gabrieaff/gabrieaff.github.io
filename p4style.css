@@ -1,7 +1,123 @@
+/**{
+	padding: 0;
+	margin: 0;
+}
+
+html, body{
+	font-family: 'Helvetica Neue', sans-serif;
+	color: black;
+	min-height: 100%;
+	height:100%;
+	min-width: 100%;
+	width:100%;
+	margin: 0;
+
+}
+
+.title{
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 40px;
+	text-align: left;
+	height:25%;
+	display: flex;
+	margin-left: 20px;
+	align-items: center;
+}
+
+.main-container{
+	min-width: 100%;
+	min-height: 100%;
+	height: 100%;
+	width:100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header{
+	min-height:100%;
+	max-width:20%;
+	height:100%;
+	width:20%;
+}
+
+
+.links{
+	height:75%;
+	width:100%;
+	display: flex;
+	flex-direction: column;
+	justify-content:flex-start;
+}
+
+.links a{
+	text-decoration: none;
+	width: calc(100% - 20px);
+	margin: 0 0 15% 20px;
+	font-family: 'Chivo', sans-serif;
+	font-size: 1.3em;
+	color: #1c0303;
+	height: 30px;
+}
+
+
+.links a:hover{
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+
+.content{
+	min-width:60%;
+	max-width: 80%;
+	min-height: 100%;
+	height: 100%;
+	width: 80%;
+}
+
+.content-title{
+	padding-top:5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Helvetica',sans-serif;
+	font-size:2em;
+	font-style: italic;
+}
+
+.content-body{
+	max-height: calc(100% - 193px);
+	min-width: 100%;
+	width:100%;
+	height:calc(100% - 193px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.movie{
+	height: 90%;
+	width:90%;
+	background: #000;
+}
+
+
+.steps{
+	text-align: center;
+}*/
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
 html, body{
 	font-family: 'Chivo', sans-serif;
 	color: black;
 	min-height: 100%;
+	height:100%;
+	min-width: 100%;
+	width:100%;
+	margin: 0;
 }
 
 h1{
@@ -11,16 +127,45 @@ h1{
 	position: absolute;
 	top: 15%;
 	left: 5%;
-	background-color: yellow;
 }
-
 
 button{
 	font-family: 'Chivo', sans-serif;
 	max-width: auto;
 	background-color: transparent;
 	border: none;
-	font-size: 24px;
+	font-size: 20px;
+}
+
+button:hover{
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.main-container{
+	min-width: 100%;
+	min-height: 100%;
+	height: 100%;
+	width:100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.content{
+	min-width:60%;
+	max-width: 80%;
+	min-height: 100%;
+	height: 100%;
+	width: 80%;
+}
+
+.movie{
+	float: center;
+	width: 820px;
+	height: 420px;
+	top: 15%;
+	left: 30%;
+	position: fixed;
 }
 
 
@@ -35,23 +180,15 @@ button{
 }
 
 
-.movie{
-	float: center;
-	width: 820px;
-	height: 420px;
-	top: 15%;
-	left: 30%;
-	position: fixed;
-}
-
 .countdown{
-	font-family:'Helvetica', sans-serif;
+	font-family:'Chivo', sans-serif;
 	font-style: italic;
-	top: 70%;
+	bottom: 30%;
+	text-align: center;
 	left: 15%;
 	position: fixed;
 	color: white;
-	font-size: 15px;
+	font-size: 18px;
 }
 
 
@@ -70,6 +207,8 @@ button{
     top: 40%;
     left: 5%;
 }
+
+
 
 .button-3{
     width: 25%;
@@ -91,7 +230,6 @@ button{
 	top: 10%;
 	left: 30%;
 	position: fixed;
-	height: 100%;
 }
 
 
@@ -99,7 +237,6 @@ button{
 	top: 15%;
 	right: -7%;
 	position: fixed;
-	height: 100%;
 }
 
 .attempts{
@@ -107,40 +244,6 @@ button{
 	top: 15%;
 	left: 40%;
 	position: fixed;
-	height: 100%;
-}
+} 
 
 
-
-/*.playDiv{
-	text-align: center;
-	float: left;
-	width: 200px;
-	height: 40px;
-	background-color: aqua;
-	color: white;
-}
-.pauseDiv{
-	text-align: center;
-	float: left;
-	width: 200px;
-	height: 40px;
-	background-color: red;
-}
-.updatingDiv{
-	color: yellow;
-	text-align: center;
-	float: left;
-	width: 280px;
-	height: 40px;
-	background-color: green;
-}
-.specialBox{
-	position: absolute;
-	top: 40px;
-	left: 20px;
-	width: 100px;
-	text-align: center;
-	background-color: red;
-	color: white;
-}*/

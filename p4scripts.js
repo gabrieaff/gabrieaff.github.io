@@ -81,7 +81,7 @@ $("#proj-button").click(function(){
 		$("body").css({"background":"#000000"}) ;
 		$(".title").hide();
 		$(".control-buttons").show();
-		$(".control-buttons").css({"background":"white"})
+		$(".control-buttons").css({"background":"white"});
 		$(".countdown").show();
 		$(".steps").show();	
 	});
