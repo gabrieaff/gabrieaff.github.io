@@ -1,0 +1,131 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+html, body{
+	font-family: 'Chivo', sans-serif;
+	color: black;
+	min-height: 100%;
+	height:100%;
+	min-width: 100%;
+	width:100%;
+	margin: 0;
+
+}
+
+.title{
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 40px;
+	text-align: left;
+	height:25%;
+	display: flex;
+	margin-left: 20px;
+	align-items: center;
+}
+
+.main-container{
+	min-width: 100%;
+	min-height: 100%;
+	height: 100%;
+	width:100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header{
+	min-height:100%;
+	max-width:20%;
+	height:100%;
+	width:20%;
+}
+
+
+.links{
+	height:75%;
+	width:100%;
+	display: flex;
+	flex-direction: column;
+	justify-content:flex-start;
+}
+
+.links a{
+	text-decoration: none;
+	width: calc(100% - 20px);
+	margin: 0 0 15% 20px;
+	font-family: 'Chivo', sans-serif;
+	font-size: 1.3em;
+	color: #1c0303;
+	height: 30px;
+}
+
+
+.links a:hover{
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+
+.content{
+	min-width:60%;
+	max-width: 80%;
+	min-height: 100%;
+	height: 100%;
+	width: 80%;
+}
+
+.content-title{
+	padding-top:120px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Helvetica',sans-serif;
+	font-size:2em;
+	font-weight: bold;
+}
+
+.content-body{
+	max-height: calc(100% - 193px);
+	min-width: 100%;
+	width:100%;
+	height:calc(100% - 193px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.movie{
+	height: 90%;
+	width:90%;
+	align-items: center;
+}
+
+.images{
+	height: 90%;
+	width: 60%;
+}
+
+
+.textabout{
+	height: 90%;
+	width: 70%;
+}
+
+
+.films{
+	height: 90%;
+	width:90%;
+	align-items: center;
+}
+
+/*.further{
+	min-width:60%;
+	max-width: 80%;
+	min-height: 100%;
+	height: 100%;
+	width: 80%;
+}*/
+
+.steps{
+	text-align: center;
+}

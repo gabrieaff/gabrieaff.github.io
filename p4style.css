@@ -229,21 +229,21 @@ button:hover{
 .images{
 	top: 10%;
 	left: 30%;
-	position: fixed;
+	position: absolute;
 }
 
 
 .textabout{
 	top: 15%;
 	right: -7%;
-	position: fixed;
+	position: absolute;
 }
 
 .attempts{
 	float: center;
 	top: 15%;
 	left: 40%;
-	position: fixed;
+	position: absolute; 
 } 
 
 
