@@ -4,8 +4,9 @@
 		<meta charset="utf-8"/>
 		<meta name="viewport" content="width=device-width">
 		<title>The Project</title>
-		<link rel="stylesheet" type="text/css" href="p4look.css" />
-		<link href="https://fonts.googleapis.com/css?family=Chivo|Enriqueta" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="p4style.css" />
+		<link href="https://fonts.googleapis.com/css?family=Chivo|Lato" rel="stylesheet">
+		<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 	</head>
 
 	<!-- HERE WE GO!!!!!!!!!! -->
@@ -15,21 +16,27 @@
 			<div class="header">
 				<h1 class="title">The Project</h1>
 				<div class ="links">
-				<a href="p4home.html" class="button-1" id="work-button">back to work</a>
-	    		<a href="p4team.html" class="button-2" id="team-button">meet the team</a>
-	    		<a href="p4attempts.html" class="button-3" id="proj-button">see the footage they lost</a>
+					<a href="p4home.html"  class="active" id="work-button">back to work</a>
+	    		<a href="p4team.html"  id="team-button">meet the team</a>
+	    		<a href="p4attempts.html"  id="proj-button">see the footage they lost</a>
 				</div>
 			</div>
 			<div class="content">
-				<div class="content-title">the video</div>
+				<div class="content-title"><h3 class="vid-title">1. enthusiastic group meetings</h3></div>
 				<div class="content-body">
 					<div class="movie" id="video">
 					</div>
+					<div class="video-controls" id="controls">
+						<button class="control" id="play"><i class="fas fa-play"></i></button>
+						<button class="control" id="volume-up"><i class="fas fa-volume-up"></i></button>
+						<button class="control" id="volume-down"><i class="fas fa-volume-down"></i></button>
+					</div>
 				</div>
 				<div class="steps">
-					<p>Test</p>
+					<p class="countdown">10 days before the deadline</p>
 				</div>
 			</div>
+
 		</div>
 
 		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
@@ -42,7 +49,3 @@
 		<script src="p4scripts.js"></script>
 	</body>
 </html>
-
-
-
-<!--div class="videoStyle" id="videoTwo"></div-->

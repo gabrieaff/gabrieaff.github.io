@@ -3,78 +3,42 @@
 	<head>
 		<meta charset="utf-8"/>
 		<meta name="viewport" content="width=device-width">
-		<title>Comm Lab Project 4: The Project</title> 
+		<title>The Project</title>
 		<link rel="stylesheet" type="text/css" href="p4style.css" />
-		<link href="https://fonts.googleapis.com/css?family=Chivo|Enriqueta" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Chivo|Lato" rel="stylesheet">
+		<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 	</head>
 
 	<!-- HERE WE GO!!!!!!!!!! -->
 	<body>
-		<h1><div class ="title">The Project</div></h1>
-
 		<!-- main container -->
-		<div class="main container">
-
-			<!-- steps container -->
-			<div class="steps">
-			</div>
-
-			<!-- movie container -->
-			<div class="movie" id="video">
-			</div>
-
-			<!-- links container -->
-			<div class ="links">
-				<BUTTON class="button-1" id="work-button">back to work</BUTTON>
-	    		<BUTTON class="button-2" id="team-button">meet the team</BUTTON>
-	      		<BUTTON class="button-3" id="proj-button">see their attempts</BUTTON>
-			</div>
-
-			<!-- countdown text -->
-			<div class="countdown">
-			</div >
-
-			<!--video controls -->
-			<div class="control-buttons">
-				<button id="playButton">play</button>
-				<button id="pauseButton">pause</button>
-			</div>
-
-			<div class ="content">
-
-			<!-- team div -->
-			<div class ="about">
-				<div class ="images">
-					<img src="gf.gif"><br>
-					<img src="rg.gif"><br>
-					<img src="mc.gif"><br>
-					<img src="mp.gif"><br>
+		<div class="main-container">
+			<div class="header">
+				<h1 class="title">The Project</h1>
+				<div class ="links">
+				<a href="p4index.html"  class="active" id="work-button">back to work</a>
+	    		<a href="p4team.html"  id="team-button">meet the team</a>
+	    		<a href="p4attempts.html"  id="proj-button">see the footage they lost</a>
 				</div>
-			
-				<div class ="textabout">
-					<p>
-						<br><br><br>gaby is a senior with a capstone.<br>she's really busy.<br>she'll talk to you once her capstone is over.<br><br><br><br><br><br><br><br><br><br>
-						robert is a CS major with no other skill than that.<br>he's as unnatural in real life as he is in the video.<br><br><br><br><br><br><br><br><br><br>
-						mateo does some sound stuff.<br>he thinks india is in australia.<br>we haven't broken the news to him yet.<br><br><br><br><br><br><br><br><br><br>
-						manas is asleep.<br>or watching a movie.<br>or both.<br><BR><BR><BR>
-
-						further thanks to:<br><br>
-						<a href="">The Office</a> for inspiring us<br>
-						myera rashid, sofia fernandez santoyo, and max eckert for helping us out<Br>
-						craig proetzel for not laughing at our joke and not taking it personally.<br>
-						you, for watching and reading this!
-					</p>
+			</div>
+			<div class="content">
+				<div class="content-title"><h3 class="vid-title">1. enthusiastic group meetings</h3></div>
+				<div class="content-body">
+					<div class="movie" id="video">
+					</div>
+					<div class="video-controls" id="controls">
+						<button class="control" id="play"><i class="fas fa-play"></i></button>
+						<button class="control" id="volume-up"><i class="fas fa-volume-up"></i></button>
+						<button class="control" id="volume-down"><i class="fas fa-volume-down"></i></button>
+					</div>
+				</div>
+				<div class="steps">
+					<p class="countdown">10 days before the deadline</p>
 				</div>
 			</div>
 
-				<!-- see what they did div -->
-			<div class ="attempts">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/Eup0TEVS7V8?rel=0&controls=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br>
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/CRy5AHuO_bo?rel=0&controls=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br>
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/AFSCdsHtAc0?rel=0&controls=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-			</div>
 		</div>
-				
+
 		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 		<script src="popcorn-js-1.5.11/popcorn.js"></script>
 		<script src="popcorn-js-1.5.11/modules/player/popcorn.player.js"></script>
@@ -87,3 +51,5 @@
 </html>
 
 
+
+<!--div class="videoStyle" id="videoTwo"></div-->
