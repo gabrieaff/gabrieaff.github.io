@@ -51,12 +51,9 @@
 			$(".vid-title").html("2. filming... a lot....");
 			$(".countdown").html("2 days before the deadline");
 		}else if (currentTime >= 340 && currentTime < 390){
-			$(".vid-title").html("3. polishing up");
+			$(".vid-title").html("3. polishing up / c's get degrees");
 			$(".countdown").html("5 hours before the deadline");
-		}else if (currentTime >= 340 && currentTime < 530){
-			$(".vid-title").html("3a. c's get degrees");
-			$(".countdown").html("5 hours before the deadline");	
-		}else if(currentTime >= 530){
+		}else if(currentTime >= 390){
 			myVideo.pause();
 			$("#proj-button").fadeIn(1000);
 		}
