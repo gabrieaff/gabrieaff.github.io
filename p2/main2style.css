@@ -1,0 +1,81 @@
+html, body { height: 100%; padding: 0; margin: 0; 
+font-family: 'Fira Sans', sans-serif;}
+
+div { width: 50%; height: 50%; float: left; }
+
+
+#div1 { background-image: url("f1.png"); background-size: 100% 100%;}
+#div2 { background-image: url("f2.png"); background-size: 100% 100%;}
+#div3 { background-image: url("f4.png"); background-size: 100% 100%;}
+#div4 { background-image: url("f3.png"); background-size: 100% 100%;}
+
+
+
+.div img{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#div2{
+	display: none;
+}
+
+#div3{
+	display: none;
+}
+
+#div4{
+	display: none;
+}
+
+#steak{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	align-self: center;
+}
+
+#steak:hover {
+    width:400px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+
+#mealClub{
+	display: inline;
+	margin: auto;
+	padding-left: 7%;
+/*	margin-left: auto;
+	margin-right: auto;*/
+}
+
+/*#mealClub.center {
+    display: block;
+    margin: 0 auto;
+}*/
+
+#steakText{
+	text-align: center;
+}
+
+#head{
+	align-self: center;
+	width: 100%;
+}
+
+#dessert{
+	display: inline-block;
+	float: left;
+}
+
+#salad{
+	float: right;
+}
+
+.dessert:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
