@@ -1,0 +1,226 @@
+html,body{
+	margin-bottom: 0;
+	padding: 0;
+	font-family: 'Average Sans', sans-serif;
+	font-size: 16px;
+	font-color:white;
+	background: #900000;
+}
+input{
+  position: fixed;
+  right: 100px;
+  bottom: 0px;
+  text-align:center;
+  background-color: transparent;
+  border: none;
+  border-color: white;
+  border-radius: 5px;
+  font-family: 'Patrick Hand', cursive;
+}
+
+h1{
+  font-family: 'Rock Salt', cursive;
+  color: white;
+  text-decoration: none;
+}
+
+p{
+  font-family: 'Patrick Hand', cursive;
+  font-size: 20px;
+  color:grey;
+}
+
+
+a:link{
+  color: black;
+  text-decoration: none;
+}
+
+
+a:visited{
+  color: black;
+  text-decoration: none;
+}
+
+a:hover{
+  color: grey;
+  text-decoration: none;
+}
+
+#amber-bio{
+  position: relative;
+  width: 32%;
+}
+
+.amber-image{
+  opacity: 1;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+#jason-bio{
+  position: relative;
+  width: 32%;
+  margin-left: 1%;
+}
+
+.jason-image{
+  opacity: 1;
+  display: block;
+ 
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+#gaby-bio{
+  position: relative;
+  width: 32%;
+  margin-left: 1%;
+}
+
+.gaby-image{
+  opacity: 1;
+  display: block;
+ 
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.overlay1 {
+  position: absolute;
+  top: 11.5%;
+  left: 8%;
+  right:0;
+  /*bottom: 5%;*/
+  opacity: 0;
+  transition: .5s ease;
+  color: white;
+}
+
+.overlay2 {
+  position: absolute;
+  top: 5%;
+  left:8%;
+  right:0;
+  /*bottom: 5%;*/
+  opacity: 0;
+  transition: .5s ease;
+  color: white;
+}
+
+.overlay3 {
+  position: absolute;
+  top: 5%;
+  left:8%;
+  right:0;
+  /*bottom: 5%;*/
+  opacity: 0;
+  transition: .5s ease;
+  color: white;
+}
+#amber-bio:hover .amber-image{
+  background-color: blue;
+  opacity: 0.3;
+}
+#amber-bio:hover .overlay1{
+  opacity: 0.5;
+}
+
+#jason-bio:hover .jason-image{
+  background-color: blue;
+  opacity: 0.3;
+}
+#jason-bio:hover .overlay2{
+  opacity: 0.5;
+}
+
+#gaby-bio:hover .gaby-image{
+  background-color: blue;
+  opacity: 0.3;
+}
+#gaby-bio:hover .overlay3{
+  opacity: 0.5;
+}
+
+.amber-info{
+  font-family: 'Patrick Hand', cursive;
+  font-size: 40px;
+  opacity: 1;
+}
+.jason-info{
+  font-family: 'Patrick Hand', cursive;
+  font-size: 40px;
+  opacity: 1;
+}
+.gaby-info{
+  font-family: 'Patrick Hand', cursive;
+  font-size: 40px;
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.images{
+	height: 10%;
+	width: 10%;
+}
+
+#img1{
+	/*display: inline-block;*/
+	margin: 15% 5% 5% 0%;
+
+}
+
+#img2{
+	/*display: inline-block;*/
+	margin: 5% 5% 5% 0%;
+
+}
+
+
+#img3{
+	/*display: inline-block;*/
+	margin: 5% 5% 5% 0%;
+}
+
+.bio{
+  display: inline-block;
+}
+.image-container{
+  padding-left: 1%;
+/*
+	position: relative;
+	margin: 5% auto;
+	width: 70%;
+	height: 20%;
+	max-width: 1000px;
+	max-height: 200px;
+	padding: 150px;*/
+}
+
+.back{
+  
+  font-size: 25px;
+  font-family: 'Patrick Hand', cursive;
+}
+
+.back:hover{
+  font-size: 30px;
+}
+
+
+#thanks{
+	float: center;
+}
+
+#acknowledgments{
+	float: right;
+}

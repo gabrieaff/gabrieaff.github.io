@@ -1,0 +1,165 @@
+.intro{
+	height:100vh;
+	width: 100vw;
+	background:linear-gradient(rgba(21,115,255,0.8),rgba(61,177,255,0.8));
+}
+/*
+.title-page{
+	position: center;
+	display: block;
+	margin-top: 30vh;
+	height: 30vh;
+	width: 100vw;	
+}
+*/
+#name{
+	text-align: center;
+	font-size: 6em;
+	color: white;
+	margin: 0em;
+	padding-top: 2em;
+	font-family: 'Rock Salt', cursive;
+}
+input{
+	left: 100px;
+	bottom: 50px;
+	text-align:center;
+	background-color: transparent;
+	border: none;
+	border-color: white;
+	border-radius: 5px;
+	font-family: 'Patrick Hand', cursive;
+}
+button {
+	margin-top: ;
+	text-align:center;
+	background-color: transparent;
+	border: none;
+	border-color: white;
+	border-radius: 5px;
+	font-family: 'Patrick Hand', cursive;
+}
+#start{
+	font-size: 30px;
+	color: white;
+	margin-left: 46%;
+	font-family: 'Patrick Hand', cursive;
+}
+#go{
+	font-size: 30px;
+	color:red;
+	font-family: 'Patrick Hand', cursive;
+	position: absolute;
+	left:13vw;
+	top:478vh;
+	margin-left: 50%;
+}
+#go:hover{
+	font-size: 40px;
+}
+#start:hover{
+	font-size: 40px;
+}
+.panel{
+	height:100vh;
+	width: 100vw;
+}
+#panel-1{
+	background:linear-gradient(rgba(61,177,255,0.8), rgba(124,196,243,0.8));
+}
+#panel-2{
+	background:linear-gradient(rgba(124,196,243,0.8),rgba(124,196,243,0.8));
+}
+#panel-3{
+	background: linear-gradient(rgba(124,196,243,0.8), rgba(208,236,255,0.8));
+}
+#panel-4{
+	background: linear-gradient(rgba(208,236,255,0.8), rgba(255,225,225,0.8)) ;
+}
+#panel-5{
+	background: linear-gradient(rgba(255,225,225,0.8),rgba(232,118,118,0.8));
+}
+#panel-6{
+	background: linear-gradient(rgba(232,118,118,0.8),rgba(212,58,58,0.8));
+}
+.panel-img{
+	padding-top: 7vh;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	margin-left: 17%;
+	height: 80vh;
+	/*width: 90vw;*/
+	display: block;
+}
+/*icon changing the size*/
+#panel-down{
+	height:50px;
+	display: block;
+	/*padding-top: 20px;
+	padding-left: 48vw;*/
+	-webkit-animation-duration: 1s;
+  	/*-webkit-animation-delay: 2s;*/
+  	margin-top: 2%;
+	margin-left: 47%;
+}
+
+/*@keyframes breathing{
+	0%{height: 50px;}
+	33%{height:55px;}
+	67%{height:60px;}
+	100%{height:55px;}
+}*/
+/*fix the top button to the right bottom of the window*/
+#top{
+	font-size: 25px;
+	position: fixed;
+	right: 70px;
+	bottom: 50px;
+	font-family: 'Patrick Hand', cursive;
+}
+#top:hover{
+	font-size: 30px;
+}
+
+.creators{
+	font-size: 25px;
+	font-family: 'Patrick Hand', cursive;
+}
+
+.creators:hover{
+	font-size: 30px;
+}
+
+#man{
+	position: absolute;
+	top: 475vh;
+	left: 34vw;
+	/*transform: scale(0.2);*/
+}
+/* Reference to the W3school example how to shake an image.*/
+@keyframes shake{
+    0% { transform: rotate(0deg); }
+    9% { transform: rotate(-30deg); }
+    18% { transform: rotate(0deg); }
+    27% { transform: rotate(15deg); }
+    36% { transform: rotate(0deg); }
+    45% { transform: rotate(-30deg); }
+    54% { transform: rotate(0deg); }
+    63% { transform: rotate(15deg); }
+    72% { transform: rotate(0deg); }
+    81% { transform: rotate(-30deg); }
+    90% { transform: rotate(0deg); }
+    100% { transform: rotate(15deg); }
+}
+
+.perfect{
+	position: absolute;
+	/*top: 200vh;*/
+	margin-top: 40%;
+	left: 48vw;
+	font-size: 15px;
+	color:white;
+}
+
+
+
