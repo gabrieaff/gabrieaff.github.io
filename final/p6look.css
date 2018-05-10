@@ -29,6 +29,7 @@ a:visited{
     text-decoration: none;
 }
 
+
 .header{
 	margin-top: 1%;
 	max-height: 100%
@@ -70,33 +71,36 @@ a:visited{
 	padding-bottom: 2%;
 }
 
-.closure{
-	margin-left: 20px;
+.closure {
+    display: inline-block;
+    width: 45%;
 }
 
 .defrost {
-    margin-left: 50%;
-    margin-top: -25.5%;
+    display: inline-block;
+    width: 45%;
 }
 
-
-.project{
-	padding-left: 20px;
+.project {
+    display: inline-block;
+    width: 45%;
 }
 
-.dining{
-    margin-left: 50%;
-    margin-top: -25.5%;
+.dining {
+    display: inline-block;
+    width: 45%;
 }
 
 
 .deadpool{
-	padding-left: 20px;
+    display: inline-block;
+    width: 45%;
 }
 
 .thanks{
-    margin-left: 50%;
-    margin-top: -25.5%;
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
 }
 
 
